@@ -1,5 +1,5 @@
-path: C:\Users\Deborah\Documents\VSCode\MLVC\bananas
-
+#path: C:\Users\Deborah\Documents\VSCode\MLVC\bananas
+path: /content/bananas
 train: images/train/maduras
 val: images/val/maduras
 
