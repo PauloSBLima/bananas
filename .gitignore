@@ -1,0 +1,23 @@
+# Ignorar pastas de cache do Python
+__pycache__/
+*.pyc
+
+# Ignorar o ambiente virtual (caso resolva criar um no futuro)
+venv/
+.venv/
+env/
+
+# Ignorar pastas de configuração local do VS Code
+.vscode/
+
+# Ignorar pasta de arquivos temporários do projeto
+trabalho/
+weights/
+runs/
+
+# Versões anteriores
+#xxx.ipynb
+
+# Ignorar no projeto
+*.zip
+*.pt

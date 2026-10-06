@@ -1,0 +1,14 @@
+path: C:\Users\Deborah\Documents\VSCode\MLVC\bananas
+
+train: images/train/maduras
+val: images/val/maduras
+
+#nc: 1
+
+#names: ['banana']
+
+# Classes do modelo
+names:
+  0: banana
+
+#https://www.kaggle.com/datasets/puneetttttttttttt/banana-dataset
