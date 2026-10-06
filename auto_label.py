@@ -2,7 +2,7 @@ import os
 from ultralytics import YOLO
 
 #BASE_DIR = r"C:\Users\Deborah\Documents\VSCode\MLVC\bananas"
-BASE_DIR = "/content/bananas"
+BASE_DIR = "/content/drive/MyDrive/Colab Notebooks/bananas"
 
 pastas_imagens = [
     os.path.join(BASE_DIR, "images", "train", "maduras"),

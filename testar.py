@@ -1,14 +1,15 @@
 from ultralytics import YOLO
 
-caminho_melhor_modelo = r"C:\Users\welin\OneDrive\Área de Trabalho\projeto_frutas\runs\detect\meu_projeto\treino_dia_2\weights\best.pt"
+#caminho_melhor_modelo = r"C:\Users\welin\OneDrive\Área de Trabalho\projeto_frutas\runs\detect\meu_projeto\treino_dia_2\weights\best.pt"
+caminho_melhor_modelo = r"/content/drive/MyDrive/Colab Notebooks/bananas/runs/detect/bananas/treino_do_zero/weights/best.pt"
 model = YOLO(caminho_melhor_modelo)
 
-imagem_nova = "imagens_teste/"
+imagem_nova = "imagens_teste/maduras/"
 
 print(f"Analisando a imagem: {imagem_nova}...")
 
 
-resultados = model.predict(source=imagem_nova, save=True, conf=0.1)
+resultados = model.predict(source=imagem_nova, save=True, conf=0.7)
 
 
 for r in resultados:
